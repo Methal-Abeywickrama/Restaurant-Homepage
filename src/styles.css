@@ -1,3 +1,32 @@
 body {
-  background-color: rebeccapurple;
+  background-color: azure;
+}
+
+@media (min-width: 600px) {
+  /* Styles for screens with a minimum width of 600px */
+  /* Place your styles here */
+  body {
+    max-width: 600px;
+    margin: 0 auto;       /* Centers the body horizontally */
+    padding: 20px;        /* Optional: adds some padding around the content */
+    box-sizing: border-box;
+  }
+}
+
+img {
+  width: 300px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
